@@ -19,7 +19,7 @@ namespace TestProject1
             var cut = ctx.RenderComponent<Home>();
 
             // Assert
-            cut.MarkupMatches("<div> You are loggined in</div> Welcome to your new app.\r\n");
+            cut.MarkupMatches("<div>\r\n  You are loggined in</div>\r\n<button >Create File</button>\r\nWelcome to your new app.");
         }
 
         [Fact]
